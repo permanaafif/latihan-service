@@ -58,7 +58,11 @@ Metode `hello()` yang di tambahkan dirancang untuk mengambil parameter String ya
 
 Anotasi `@RestController` memberi tahu Spring bahwa kode ini menjelaskan titik akhir yang harus tersedia melalui web. `@GetMapping(“/hello”)` memberi tahu Spring untuk menggunakan method `hello()` untuk menjawab permintaan yang dikirim ke alamat  `http://localhost:8080/hello`. Akhirnya, `@RequestParamSpring` memberi tahu Spring untuk mengharapkan nilai `name` dalam permintaan, tetapi jika tidak ada, itu akan menggunakan kata "Dunia" secara default.
 #### Langkah 3: Cobalah !
-Run file **LatihanServiceApplication.java**. Beberapa baris terakhir di sini memberi tahu kami bahwa Spring telah dimulai. Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada `localhost` port `8080`. Buka browser Anda dan di bilah alamat di bagian atas enter `http://localhost:8080/halo`. Anda harus mendapatkan respons ramah yang bagus seperti ini:
+Run file **LatihanServiceApplication.java**.
+
+![gambar](https://drive.google.com/uc?export=view&id=1NuK-WOtuPO98UlUT42AuKNTv67FYjKWo)
+
+Beberapa baris terakhir di sini memberi tahu kami bahwa Spring telah dimulai. Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada `localhost` port `8080`. Buka browser Anda dan di bilah alamat di bagian atas enter `http://localhost:8080/halo`. Anda harus mendapatkan respons ramah yang bagus seperti ini:
 
 ![gambar](https://drive.google.com/uc?export=view&id=12Bnc3bwzGqHBZ75GSChAbIIZ_hqwwj8g)
 
