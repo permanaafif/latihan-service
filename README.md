@@ -1,4 +1,11 @@
 # Membuat Layanan Mikroservice Sederhana
+## About
+* Menggunakan Maven Spring
+* Menggunakan Spring Boot versi 2.6.11
+* Menggunakan Apache NetBeans IDE 13
+* Menggunakan Bahasa Java
+* Menggunakan JDK 17
+* Menggunakan Browser Chrome
 ## Download Maven Projek Menggunakan Spring
 #### Langkah 1:
 Buat proyek Maven menggunakan Spring Initializr https://start.spring.io/
